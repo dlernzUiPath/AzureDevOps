@@ -1,0 +1,77 @@
+{
+  "name": "Azure DevOps",
+  "description": "Azure DevOps Demonstration",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Credentials.Activities": "[1.2.7632.25860]",
+    "UiPath.Excel.Activities": "[2.9.3]",
+    "UiPath.Mail.Activities": "[1.9.3]",
+    "UiPath.System.Activities": "[20.10.1]",
+    "UiPath.Testing.Activities": "[1.2.4]",
+    "UiPath.UIAutomation.Activities": "[20.10.6]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.2.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "00658db8-42c6-4f06-98e1-935e5352ab96",
+        "fileName": "TestCases\\Environment\\Login\\LoginOK.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2a8622c5-04b6-4ab6-8d6f-76d3b2a784d6",
+        "fileName": "TestCases\\Environment\\APITokenCheck.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8690e3e7-01a0-4b60-b7b1-ae3d3a664f9d",
+        "fileName": "TestCases\\Environment\\AssestsCheck.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "1ea45d1a-f38e-4770-80e5-cb565fa72a59",
+        "fileName": "TestCases\\Environment\\EndPointCheck.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "f3692bee-0151-4a5d-bef4-7ddce71fc493",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
